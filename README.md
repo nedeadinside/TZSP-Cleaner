@@ -2,7 +2,7 @@
 
 TZSP Cleaner is a Python utility that removes [TaZmen Sniffer Protocol (TZSP)](http://en.wikipedia.org/wiki/TZSP) encapsulation from PCAP files. The script processes an input PCAP file by identifying packets with a TZSP layer and extracting the encapsulated payload when available. The resulting decapsulated packets are then saved into a new PCAP file. Optionally, the output may be divided into multiple files based on a specified chunk size.
 
-This utility is useful for handling PCAP files collected from devices such as Mikrotik routers, which may include TZSP encapsulation in the packet data when you using Packet Sniffer tool.
+This utility is useful for handling PCAP files collected from devices such as Mikrotik routers, which include TZSP encapsulation in the packet data when you using Packet Sniffer tool.
 
 If you require live decapsulation of TZSP encapsulated traffic, you may consider using the [tzsp2pcap](https://github.com/thefloweringash/tzsp2pcap) tool.
 
